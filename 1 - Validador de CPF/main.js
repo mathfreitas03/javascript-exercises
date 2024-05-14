@@ -80,4 +80,4 @@ Pessoa.prototype.validateCpf = function (cpf) {
 }
 
 const pessoa = new Pessoa('Matheus', '105.174.209-96');
-console.log(pessoa.cpf)
+console.log(pessoa.validateCpf(pessoa.cpf))
